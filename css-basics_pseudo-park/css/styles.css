@@ -1,0 +1,43 @@
+/* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Styles for the park */
+.park {
+  margin: 16px;
+  border: 2px dashed silver;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: lightgoldenrodyellow;
+  padding: 16px;
+}
+
+/* Set font size for all animals */
+.animal {
+  font-size: 32px;
+}
+
+/* Center the giraffe and align the dino to the right */
+.giraffe {
+  text-align: center;
+}
+
+.dino {
+  text-align: right;
+}
+
+/* Change background color on hover */
+.crocodile:hover {
+  background-color: lightblue;
+}
+
+.giraffe:hover {
+  background-color: lightgreen;
+}
+
+.dino:hover {
+  background-color: lightsalmon;
+}
